@@ -18,6 +18,9 @@ Eine KI ohne Kontext rät. Das englische Wort "Share" bedeutet in *Nextcloud Tal
 * **Beispiel-Prompt-Zusatz:** *"Du übersetzt Strings für die Nextcloud-App 'Deck' (Kanban-Projektmanagement). Übersetze 'Board' nicht mit 'Brett', sondern behalte 'Board' bei."*
 
 ### 3. Der Nextcloud-Tonfall: de_DE (Informell) vs. de_DE_formal
-Nextcloud unterscheidet strikt zwischen dem lockeren "Du" (`de`) und dem geschäftlichen "Sie" (`de_DE_formal`). KIs mischen das gerne innerhalb eines Satzes, wenn man sie nicht zwingt.
+Nextcloud unterscheidet strikt zwischen dem lockeren "Du" (`de`) und dem geschäftlichen "Sie" (`de_DE`). KIs mischen das gerne innerhalb eines Satzes, wenn man sie nicht zwingt.
 * **KI-Instruktion:** Wir generieren standardmäßig für `de` (informell). Der KI muss per System-Prompt ein striktes "Verwende ausschließlich das respektvolle 'Du' und niemals 'Sie'" vorgegeben werden.
 * **Regel:** Keine passiv-aggressiven oder zu roboterhaften Formulierungen.
+
+### 4. Regelnentwurf
+
